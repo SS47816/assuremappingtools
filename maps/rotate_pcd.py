@@ -3,8 +3,8 @@ import numpy as np
 import copy 
 
 folder_path = "/home/arc/ss_ws/assuremappingtools/maps/"
-input_file_name = "utown/01.pcd"
-output_file_name = "utown/01_rotated.pcd"
+input_file_name = "ew1a/ew1a_out.pcd"
+output_file_name = "ew1a/ew1a_out_r.pcd"
 
 print("Load a point cloud, print it, and render it")
 pcd_raw = o3d.io.read_point_cloud(folder_path + input_file_name)
